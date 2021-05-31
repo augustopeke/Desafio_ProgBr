@@ -1,0 +1,54 @@
+body {
+   background:rgb(49, 49, 49);
+}
+
+.container {
+    background: url('../img/background.png') no-repeat;
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    margin: auto;
+    margin-top: 20%;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+
+.nome h1 {
+    font-family: 'Righteous', cursive;
+    color: rgb(49, 49, 49);
+    padding-left: 20px;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 1px #ddd;
+}
+
+.listas ul {
+    padding-left: 20px;
+}
+
+.listas {
+    font-family: 'Righteous', cursive;
+}
+
+.listas li {
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+
+.listas img {
+    padding-right: 10px;
+}
+
+.listas a {
+    text-decoration: none;
+    color: #ddd;
+}
+
+.listas a:visited {
+    color: #ddd;
+}
+
+.listas a:hover {
+    color: rgb(49, 49, 49);
+    transition: 1.5s;
+}
